@@ -10,7 +10,8 @@ This was compiled using GCC on x86_64 Mac OS X with Ruby 3.0.2 (tested with 2.6+
 
 1. Pull down the code from the repository.
 2. Run `ruby extconf.rb` and it will create a Makefile.
-3. Run `make` to generate the `heron.bundle` and `heron.o` libs.
+3. Run `make` to generate the `heron.bundle` and `heron.o` libs. Depending on your architecture, it may generate a
+   `heron.so` file.
 
 ## Testing in IRB
 
