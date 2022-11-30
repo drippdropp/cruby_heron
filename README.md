@@ -1,8 +1,10 @@
 # cruby_heron
 
-Just a little practice with the Ruby C API. This repo contains a C-extension for Ruby which contains two methods:
+Heron's Formula C-extension using the Ruby C API. This repo contains a C-extension for Ruby which contains two methods:
 - verifies that a triangle is legitimate (verify_triangle)
 - computes the area of a triangle using Heron's formula (heron)
+
+Naturally all work on this was done using my personal Emacs distribution, [Aether Emacs](https://github.com/drippdropp/aether-dot-emacs).
 
 ## Compilation
 
@@ -45,6 +47,5 @@ irb(main):002:0> heron(10, 30, 30)
 
 [The Definitive Guide to Ruby's C API](https://silverhammermba.github.io/emberb/c/) is a great resource for Ruby's C API with lots of information and examples.
 
- [C Ruby Extension Playlist](https://www.youtube.com/playlist?list=PLDvo9XtZiAZdVq5KfLwMphVMd8QB7nysF) is a great collection of videos
- on YouTube by Sourav Goswami which runs through how to work with various types as well as some examples.
+[C Ruby Extension Playlist](https://www.youtube.com/playlist?list=PLDvo9XtZiAZdVq5KfLwMphVMd8QB7nysF) is a great collection of videos on YouTube by Sourav Goswami which runs through how to work with various types as well as some examples.
 
