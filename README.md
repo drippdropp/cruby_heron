@@ -41,3 +41,10 @@ irb(main):002:0> heron(10, 30, 30)
 => 147.90199279785156
 ```
 
+## Additional Resources
+
+[The Definitive Guide to Ruby's C API](https://silverhammermba.github.io/emberb/c/) is a great resource for Ruby's C API with lots of information and examples.
+
+ [C Ruby Extension Playlist](https://www.youtube.com/playlist?list=PLDvo9XtZiAZdVq5KfLwMphVMd8QB7nysF) is a great collection of videos
+ on YouTube by Sourav Goswami which runs through how to work with various types as well as some examples.
+
