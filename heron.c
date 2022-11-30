@@ -17,7 +17,7 @@ int verify_triangle(double a, double b, double c) {
  *  C-implementation of Heron's Formula to compute the area
  *  of a triangle.
  */
-float heron(double a, double b, double c) {
+double heron(double a, double b, double c) {
   double s = (a + b + c)/2.0;
   double area = sqrt(s * (s - a) * (s - b) * (s - c));
   return area;
